@@ -11,10 +11,7 @@ job("MyProject_Build") {
                 url('${gitUrl}')
                 branch "origin/master"
             }
-            extensions {
-                wipeOutWorkspace()
-                localBranch master
-            }
+            
         }
     }
     steps {
