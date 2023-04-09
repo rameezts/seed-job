@@ -1,6 +1,6 @@
 def gitUrl = "https://github.com/example/project.git"
 
-job("MyProject_Build") {
+job("Project-A-Build-job") {
     description "Builds MyProject from master branch."
     parameters {
         stringParam('COMMIT', 'HEAD', 'Commit to build')
